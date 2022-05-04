@@ -7,5 +7,5 @@ git commit -m "$COMMIT"
 
 read -p "Branch: " BRANCH
 
-git push -f origin $BRANCH
+git push -u origin $BRANCH
 
