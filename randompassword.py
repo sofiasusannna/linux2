@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 import random
+from sys import argv
 
 small = "abcdefghijklmnopqrstuvwxyz"
 large = small.upper()
@@ -7,7 +8,7 @@ numbers = "1234567890"
 password_variables = small + numbers + large
 password = ""
 
-lenght = input("Salasanan pituus: ")
+lenght = str(argv[1])
 
 while True:
         try:
