@@ -9,4 +9,3 @@ read -p "Branch: " BRANCH
 
 git push -f origin $BRANCH
 
-fi
